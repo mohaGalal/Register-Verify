@@ -1,0 +1,69 @@
+.auth-container {
+    background-image: url(./assets/images/auth-bg.jfif);
+    background-position: center center;
+    background-size: cover;
+}
+.sr-only {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border-width: 0;
+}
+.bg-overlay {
+    background: linear-gradient(45deg,rgba(47,140,96,0.7),rgba(0,0,0,0.5));
+}
+.sidebar-container {
+    background-color: #1F263E;
+    border-radius: 0 45px 0 0;
+    position: sticky;
+    left: 0;
+    top: 0;
+    align-self: flex-start;
+}
+.sidebar-container .ps-sidebar-container {
+    background-color: #1F263E;
+    height: 100vh;
+    border-radius: 0 45px 0 0;
+    margin-right: 10px;
+    
+}
+.sidebar-container .ps-menu-button {
+    color: #fff !important;
+}
+.sidebar-container .logo-menu-item:hover {
+    background: transparent ;
+}
+.sidebar-container .ps-menu-button:hover {
+    background-color: rgba(47, 140, 96, 0.5) !important;
+}
+.header-container{
+    background-image: url(./assets/images/header-cricles.svg);
+    background-color: #009247 ;
+    border-radius: 15px;
+}
+.delete-btn {
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+}
+.cred-icons .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: 700;
+}
+.cred-icons .dropdown-toggle:hover {
+    background-color: #00924752;
+    
+}
+.cred-icons .dropdown-toggle::after {
+    display: none;
+}
+.img-table {
+    width: 30%;
+}

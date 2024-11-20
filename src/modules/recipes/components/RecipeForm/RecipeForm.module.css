@@ -1,0 +1,53 @@
+.header-wrapper {
+    background-color:  #F0FFEF;
+    border-radius: 15px;
+    margin-inline: 2rem;
+    margin-top: 1.375rem;
+    padding-block: 2.625rem;
+    padding-inline: 4rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .content-wrapper {
+        max-width: 30rem;
+    }
+}
+.btn-primary {
+    background-color: #009247;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.form-wrapper {
+    margin-inline: 8.5rem;
+    margin-block: 5.25rem;
+    
+}
+.form-wrapper input,
+.form-wrapper select,
+.form-wrapper textarea {
+    padding:0.75rem 1rem ;
+    margin-bottom: 5px;
+    background-color: #f7f7f7;
+}
+.actions-wrapper  {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3.5rem;
+}
+.actions-wrapper .btn-primary1 {
+    background-color: white;
+    border: 2px solid #009247 ;
+    padding: 0 3rem;
+    border-radius: 5px;
+    color: #009247;
+}
+.actions-wrapper .btn-primary {
+    border: none;
+}
